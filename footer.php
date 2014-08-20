@@ -1,6 +1,6 @@
 <div class="footer">
 	<div class="innerWrapper">
-    <p>&copy; Your Name Here <?php echo date('Y'); ?></p>
+    <p><!-- &copy; --> jessewgray.com <?php echo date('Y'); ?></p>
     <?php wp_footer(); ?>
   </div>
 </div>

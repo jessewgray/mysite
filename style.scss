@@ -8,7 +8,7 @@ Author URI: http://wesbos.com
 */
 
 
-@import "reset";
+@import "_reset";
 
 /* =============================================================================
                    Normalize, border box and clearfix 
@@ -55,7 +55,7 @@ body {
 
 
 .left h2 {
-  display: none; 
+  // display: none; 
 }
 
 .dropDown {
@@ -79,6 +79,7 @@ body {
   background-color: white;
   padding: 5%;
   font-size: 22px;
+  font-family: 'special elite';
   letter-spacing: .18em;
   box-shadow: 6px 5px 5px black;
   text-shadow: 2px 2px 2px black;
@@ -105,29 +106,90 @@ body {
   background-color: white;
   padding: 3%;
   letter-spacing: .16em;
+  font-family: 'special elite';
   box-shadow: 5px 5px 5px black;
   text-shadow: 1px 1px 1px black;
 
 }
 
 .section {
-  margin-top: 75%;
+  margin-top: 45%;
   width: 100%;
   /*border: black solid 1px;*/
   padding: 2%;
   background-color: white;
-  /*opacity: .6;*/
-  /*margin-left: 22%;*/
-  /*margin-right: 3%;*/
+  box-shadow: 6px 5px 5px black;
+  font-family: 'special elite';
+  h2 {
+    font-size: 26px;
+    }
 
 }
 
+
+.about {
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  
+  }
+
+.aboutHead {
+  width: 35%;
+  margin-right: 2%;
+  float: left;
+  img {
+    position: center;
+  }
+}
+
+.aboutText {
+  width: 60%;
+  float: left;
+    p {
+      width: 100%;
+      font-size: 18px;
+      line-height: 1.5em;
+
+    }
+
+}
+
+.blogWrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  h2 {
+    font-size: 22px;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.titleBlog h2 {
+  font-size: 26px;
+}
+
+.blogText p {
+  font-size: 18px;
+
+}
 
 
 .footer {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
+    p {
+      background-color: white;
+      padding: 1%;
+      letter-spacing: .18em;
+      font-family: 'special elite';
+      box-shadow: 6px 5px 5px black;
+      text-shadow: 2px 2px 2px black;
+      display: inline-block;
+    }
 }
 
 /*.aboutPic {
@@ -157,28 +219,8 @@ body {
   /*float: left;*/
 }
 
-.fuckWordpress {
-  width: 100%;
-  /*margin-left: 5%;*/
-  /*margin-right: 5%;*/
-}
 
-.fuckMe {
-  width: 30%;
-  /*background-attachment: center;*/
-  float: left;
-}
 
-.fuckThisShit {
-  margin-left: 5%;
-  width: 60%;
-  display: inline-block;
-  float: left;
-}
-
-.fuckThisShit p {
-  padding: 2%;
-}
 
 
 /* =============================================================================

@@ -6,18 +6,23 @@
 	}
 	?>
 
+	
+
 	        <div id="post-<?php the_ID();?>" <?php post_class();
 	?>>
 	          <h1 class="entry-title"><?php the_title();?></h1>
 
 	          <div class="entry-meta">
-	<?php twentyten_posted_on();?>
-	</div><!-- .entry-meta -->
+				<?php twentyten_posted_on();?>
+			</div><!-- .entry-meta -->
 
-	          <div class="entry-content">
-	<?php the_content();?>
+	         <div class="entry-content">
+				<?php if ( has_post_thumbnail() ) {
+					the_post_thumbnail();
+				}  ?>
+				<?php the_content();?>
 	            <?php wp_link_pages(array('before' => '<div class="page-link">'.__('Pages:', 'twentyten'), 'after' => '</div>'));?>
-	</div><!-- .entry-content -->
+			</div><!-- .entry-content -->
 
 
 	          <div class="entry-utility">
