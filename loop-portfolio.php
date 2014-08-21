@@ -2,17 +2,9 @@
 
 <?php if ( ! have_posts() ) : ?>
 
-	<article id="post-0" class="post error404 not-found">
-		<h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
-		<section class="entry-content">
-			<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'twentyten' ); ?></p>
-			<?php get_search_form(); ?>
-		</section><!-- .entry-content -->
-	</article><!-- #post-0 -->
 
 <?php endif; // end if there are no posts ?>
 
-<?php /* if there are posts, Start the Loop. */ ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
@@ -23,14 +15,18 @@
 				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) ); ?>
 				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 			</section><!-- .entry-content -->
+			<?php the_field('short_desc'); ?>
+			<div class="images">
+				<?php while( has_sub_field('images') ): ?>
 
-			<footer>
-				<p><?php the_tags('Tags: ', ', ', '<br>'); ?> Posted in <?php the_category(', '); ?> &bull; <?php edit_post_link('Edit', '', ' &bull; '); ?> <?php comments_popup_link('Respond to this post &raquo;', '1 Response &raquo;', '% Responses &raquo;'); ?></p>
-			</footer>
-				
-		</article><!-- #post-## -->
-
-		<?php comments_template( '', true ); ?>
+					<div class="image">	
+						<p><?php the_sub_field('caption'); ?></p>
+						<?php $image = get_sub_field('image'); ?>
+						<!-- <pre><?php print_r($image);?></pre> -->
+	  					<img src="<?php echo $image['sizes']['large'] ?>">
+					</div> <!-- image -->
+				<?php endwhile; ?>
+			</div> <!-- images -->
 
 
 <?php endwhile; // End the loop. Whew. ?>
