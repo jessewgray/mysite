@@ -188,11 +188,20 @@ body {
   
 }
 
+.portfolioDisplay {
+  background-color: lightgrey;
+  box-shadow: 5px 5px 5px black;
+  padding: 2%;
+  width: 30%;
+  display: inline-block;
+}
+
 
 .footer {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%;
+  margin-top: 3%;
     p {
       background-color: white;
       padding: 1%;
@@ -201,8 +210,70 @@ body {
       box-shadow: 6px 5px 5px black;
       text-shadow: 2px 2px 2px black;
       display: inline-block;
+      float: left;
     }
 }
+
+.socialIcon {
+  width: 50%;
+  height: 20%;
+  display: inline-block;
+  float: left;
+
+}
+
+.iconOne {
+  background-image: url('i/githubIcon.png');
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 55%;
+  margin-bottom: 3%;
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: 1s;
+  }
+
+}
+
+.iconTwo {
+  background-image: url('i/linkedinIcon.png');
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 1.5%;
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: 1s;
+   }   
+}
+
+.iconThree {
+  background-image: url('i/twitterIcon.png');
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 1.5%;
+  &:hover {
+    transform: scale(1.2,1.2);
+    transition: 1s;
+  } 
+}
+
 
 /*.aboutPic {
   display: inline;

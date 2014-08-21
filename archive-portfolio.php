@@ -4,14 +4,20 @@
     <div class="left">
     
       <div class="portfolioArchiveWrapper">
-        
+
+      <div class="portfolioArchiveTitle">
+            <h2>portfolio</h2> 
+          </div> <!-- portfolioArchiveTitle -->
+ 
+       
+       <div class="portfolioDisplay">
+
+
+
 
           <?php if ( have_posts() ) the_post(); ?>
-
-          <div class="portfolioArchiveTitle">
-            <h2>portfolio</h2>
-          </div> <!-- portfolioArchiveTitle -->
-
+          
+          
           <?php
 	/* Since we called the_post() above, we need to
 	 * rewind the loop back to the beginning that way
@@ -25,7 +31,7 @@
 	 */
         get_template_part( 'loop', 'portfolio' );
         ?>
-
+      </div> <!-- portfolioDisplay -->
       </div> <!-- portfolioArchiveWrapper -->
 
     </div><!--/left-->	

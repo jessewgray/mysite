@@ -1,6 +1,22 @@
+
 <div class="footer">
 	<div class="innerWrapper">
     <p><!-- &copy; --> jessewgray.com <?php echo date('Y'); ?></p>
+
+	<div class="socialIcons">
+		<div class="iconOne">
+
+		</div> <!-- iconOne -->
+		<div class="iconTwo">
+
+		</div> <!-- iconTwo -->
+		<div class="iconThree">
+
+		</div> <!-- iconThree -->
+
+
+	</div> <!-- socialIcons -->
+
     <?php wp_footer(); ?>
   </div>
 </div>

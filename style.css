@@ -429,10 +429,19 @@ body {
 .portfolioArchiveTitle h2 {
   font-size: 26px; }
 
+.portfolioDisplay {
+  background-color: lightgrey;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+  padding: 2%;
+  width: 30%;
+  display: inline-block; }
+
 .footer {
   margin-left: 5%;
   margin-right: 5%;
-  width: 90%; }
+  width: 90%;
+  margin-top: 3%; }
   .footer p {
     background-color: white;
     padding: 1%;
@@ -441,7 +450,71 @@ body {
     -webkit-box-shadow: 6px 5px 5px black;
             box-shadow: 6px 5px 5px black;
     text-shadow: 2px 2px 2px black;
-    display: inline-block; }
+    display: inline-block;
+    float: left; }
+
+.socialIcon {
+  width: 50%;
+  height: 20%;
+  display: inline-block;
+  float: left; }
+
+.iconOne {
+  background-image: url("i/githubIcon.png");
+  background-size: contain;
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+  margin-left: 55%;
+  margin-bottom: 3%; }
+  .iconOne:hover {
+    -webkit-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    -webkit-transition: 1s;
+            transition: 1s; }
+
+.iconTwo {
+  background-image: url("i/linkedinIcon.png");
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+  margin-left: 1.5%; }
+  .iconTwo:hover {
+    -webkit-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    -webkit-transition: 1s;
+            transition: 1s; }
+
+.iconThree {
+  background-image: url("i/twitterIcon.png");
+  background-size: contain;
+  background-position: center;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+  margin-left: 1.5%; }
+  .iconThree:hover {
+    -webkit-transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+    -webkit-transition: 1s;
+            transition: 1s; }
 
 /*.aboutPic {
   display: inline;
