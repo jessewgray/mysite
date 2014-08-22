@@ -68,8 +68,8 @@ body {
 }
 
 .dropDown:hover {
-  /*transform: scale(1.1,1.1);*/
-  /*transition: 2s;*/
+  // transform: scale(1.1,1.1);
+  // transition: 2s;
 
 }
 
@@ -83,6 +83,12 @@ body {
   letter-spacing: .18em;
   box-shadow: 6px 5px 5px black;
   text-shadow: 2px 2px 2px black;
+  &:hover {
+    // transform: scale(1.05,1.05);
+    background-color: lightgrey;
+    color: white;
+    transition: 1s;
+  }
 }
 
 .dropDown ul {
@@ -97,7 +103,6 @@ body {
   margin-top: 18%;
   margin-left: -12%;
 
-
 }
 
 .dropDown ul a {
@@ -109,6 +114,12 @@ body {
   font-family: 'special elite';
   box-shadow: 5px 5px 5px black;
   text-shadow: 1px 1px 1px black;
+  &:hover {
+    // transform: scale(1.05,1.05);
+    background-color: lightgrey;
+    color: white;
+    transition: 1s;
+  }
 
 }
 
@@ -122,6 +133,8 @@ body {
   font-family: 'special elite';
   h2 {
     font-size: 26px;
+
+   
     }
 
 }
@@ -131,6 +144,9 @@ body {
   margin-right: 5%;
   margin-left: 5%;
   width: 90%;
+  h2 {
+    text-shadow: 2px 2px 2px black;
+  }
   
   }
 
@@ -169,6 +185,7 @@ body {
 
 .titleBlog h2 {
   font-size: 26px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .blogText p {
@@ -185,15 +202,57 @@ body {
 
 .portfolioArchiveTitle h2 {
   font-size: 26px;
-  
+  text-shadow: 2px 2px 2px black;
+
 }
 
-.portfolioDisplay {
-  background-color: lightgrey;
-  box-shadow: 5px 5px 5px black;
-  padding: 2%;
+.portfolioSingleWrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  h2 {
+    text-shadow: 2px 2px 2px black;
+  }
+
+}
+
+.portfolioSingleTitle h2 {
+  font-size: 26px;
+
+}
+
+// .portfolioDisplay {
+//   background-color: lightgrey;
+//   box-shadow: 5px 5px 5px black;
+//   padding: 2%;
+//   width: 30%;
+//   display: inline-block;
+//   float: left;
+//   border: red solid;
+// }
+
+.portfolio {
   width: 30%;
-  display: inline-block;
+  float: left;
+  // border: 1px solid red; 
+  margin-right: 3%;
+  background-color: lightgrey;
+  padding: 2%;
+  box-shadow: 6px 5px 5px black;
+  text-align: center;
+  h2 a {
+    text-decoration: none;
+    color: black;
+    &:hover {
+    // transform: scale(1.05,1.05);
+    // text-decoration: underline;
+    // background-color: black;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    transition: .8s;
+  }
+  }
+
 }
 
 
@@ -208,7 +267,7 @@ body {
       letter-spacing: .18em;
       font-family: 'special elite';
       box-shadow: 6px 5px 5px black;
-      text-shadow: 2px 2px 2px black;
+      text-shadow: 1px 1px 1px black;
       display: inline-block;
       float: left;
     }

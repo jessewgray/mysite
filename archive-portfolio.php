@@ -3,14 +3,14 @@
   <div class="innerWrapper">
     <div class="left">
     
-      <div class="portfolioArchiveWrapper">
+      <div class="portfolioArchiveWrapper clearfix">
 
       <div class="portfolioArchiveTitle">
             <h2>portfolio</h2> 
           </div> <!-- portfolioArchiveTitle -->
  
        
-       <div class="portfolioDisplay">
+       <div class="portfolioDisplay clearfix">
 
 
 

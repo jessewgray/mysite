@@ -27,6 +27,7 @@
 					</div> <!-- image -->
 				<?php endwhile; ?>
 			</div> <!-- images -->
+		</article>
 
 
 <?php endwhile; // End the loop. Whew. ?>
