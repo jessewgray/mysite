@@ -124,18 +124,94 @@ body {
 }
 
 .section {
-  margin-top: 45%;
+  margin-top: 25%;
   width: 100%;
   /*border: black solid 1px;*/
   padding: 2%;
   background-color: white;
-  box-shadow: 6px 5px 5px black;
+  box-shadow: 7px 5px 5px black;
   font-family: 'special elite';
   h2 {
     font-size: 26px;
 
    
     }
+
+}
+
+.blogSection {
+  margin-top: 45%;
+  width: 100%;
+  /*border: black solid 1px;*/
+  padding: 2%;
+  background-color: white;
+  box-shadow: 7px 5px 5px black;
+  font-family: 'special elite';
+  h2 {
+    font-size: 26px;
+
+   
+    }
+
+}
+
+.portfolioSection {
+  margin-top: 45%;
+  width: 100%;
+  /*border: black solid 1px;*/
+  padding: 2%;
+  background-color: white;
+  box-shadow: 7px 5px 5px black;
+  font-family: 'special elite';
+  h2 {
+    font-size: 26px;
+
+   
+    }
+
+}
+
+.contactSection {
+  margin-top: 45%;
+  width: 100%;
+  /*border: black solid 1px;*/
+  padding: 2%;
+  background-color: white;
+  box-shadow: 7px 5px 5px black;
+  font-family: 'special elite';
+  h2 {
+    font-size: 26px;
+
+   
+    }
+
+}
+
+.contactWrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  h2 {
+    text-shadow: 2px 2px 2px black;
+  }
+}
+
+.contactText {
+  font-size: 18px;
+  text-align: center;
+  
+}
+
+
+.mainBlurb {
+  // background-color: red;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6%;
+  font-family: 'special elite';
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px 3px black;
 
 }
 
@@ -240,6 +316,7 @@ body {
   padding: 2%;
   box-shadow: 6px 5px 5px black;
   text-align: center;
+  border: 2px solid grey;
   h2 a {
     text-decoration: none;
     color: black;
@@ -254,6 +331,28 @@ body {
   }
 
 }
+
+// .portfolioDisplay {
+//   position: relative;
+
+// }
+
+// .portfolioDisplayCover {
+//   position: absolute;
+//   height: 100%;
+//   width: 99%;
+//   top: 0;
+//   left: 0;
+//   background: rgba(0,0,0,0.75);
+//   visibility: hidden;
+//   opacity: 0;
+
+// }
+
+// .porfolioDisplay:hover .portfolioDisplayCover {
+//   visibility: visible;
+//   opacity: 1;
+// }
 
 
 .footer {

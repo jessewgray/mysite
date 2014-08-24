@@ -6,9 +6,15 @@
 
 get_header();  ?>
 
+<div class="mainBlurb">
+      <p>Jesse W Gray</p>
+      <p>Front-End Web Developer</p>
+      <p>Toronto, ON</p>
+    </div> <!-- mainBlurb --> 
 <div class="section clearfix">
   <div class="innerWrapper" >
     <div class="full" >
+
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
@@ -27,7 +33,7 @@ get_header();  ?>
           </div> <!-- aboutText -->
 
        </div> <!-- about --> 
-
+    
       <?php endwhile; // end the loop?>
     </div>
   </div> <!-- /.innerWrapper -->

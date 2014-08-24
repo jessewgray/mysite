@@ -1,5 +1,5 @@
 <?php get_header();?>
-<div class="section">
+<div class="blogSection">
   <div class="innerWrapper">
     <div class="left">
     <div class="blogWrapper";>

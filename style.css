@@ -381,16 +381,72 @@ body {
             transition: 1s; }
 
 .section {
+  margin-top: 25%;
+  width: 100%;
+  /*border: black solid 1px;*/
+  padding: 2%;
+  background-color: white;
+  -webkit-box-shadow: 7px 5px 5px black;
+          box-shadow: 7px 5px 5px black;
+  font-family: 'special elite'; }
+  .section h2 {
+    font-size: 26px; }
+
+.blogSection {
   margin-top: 45%;
   width: 100%;
   /*border: black solid 1px;*/
   padding: 2%;
   background-color: white;
-  -webkit-box-shadow: 6px 5px 5px black;
-          box-shadow: 6px 5px 5px black;
+  -webkit-box-shadow: 7px 5px 5px black;
+          box-shadow: 7px 5px 5px black;
   font-family: 'special elite'; }
-  .section h2 {
+  .blogSection h2 {
     font-size: 26px; }
+
+.portfolioSection {
+  margin-top: 45%;
+  width: 100%;
+  /*border: black solid 1px;*/
+  padding: 2%;
+  background-color: white;
+  -webkit-box-shadow: 7px 5px 5px black;
+          box-shadow: 7px 5px 5px black;
+  font-family: 'special elite'; }
+  .portfolioSection h2 {
+    font-size: 26px; }
+
+.contactSection {
+  margin-top: 45%;
+  width: 100%;
+  /*border: black solid 1px;*/
+  padding: 2%;
+  background-color: white;
+  -webkit-box-shadow: 7px 5px 5px black;
+          box-shadow: 7px 5px 5px black;
+  font-family: 'special elite'; }
+  .contactSection h2 {
+    font-size: 26px; }
+
+.contactWrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%; }
+  .contactWrapper h2 {
+    text-shadow: 2px 2px 2px black; }
+
+.contactText {
+  font-size: 18px;
+  text-align: center; }
+
+.mainBlurb {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 6%;
+  font-family: 'special elite';
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px 3px black; }
 
 .about {
   margin-right: 5%;
@@ -457,7 +513,8 @@ body {
   padding: 2%;
   -webkit-box-shadow: 6px 5px 5px black;
           box-shadow: 6px 5px 5px black;
-  text-align: center; }
+  text-align: center;
+  border: 2px solid grey; }
   .portfolio h2 a {
     text-decoration: none;
     color: black; }

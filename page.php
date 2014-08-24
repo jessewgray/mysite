@@ -1,6 +1,8 @@
 <?php get_header();  ?>
 
-<div class="section">
+<div class="contactSection">
+<div class="contactWrapper">
+
   <div class="innerWrapper">
     <div class="left">
 
@@ -10,12 +12,14 @@
 
         <h2><?php the_title(); ?></h2>
         
-        
-
-
+       	<div class="contactText"> 
+			<?php the_content(); ?>
+		</div> <!-- contactText -->
       <?php endwhile; // end the loop?>
     </div>
     <!-- <?php get_sidebar(); ?> -->
   </div> <!-- /.innerWrapper -->
-</div> <!-- /.section -->
+
+</div> <!-- contactWrapper -->
+</div> <!-- /.contactSection -->
 <?php get_footer(); ?>
