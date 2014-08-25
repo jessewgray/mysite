@@ -386,11 +386,56 @@ body {
   /*border: black solid 1px;*/
   padding: 2%;
   background-color: white;
-  -webkit-box-shadow: 7px 5px 5px black;
-          box-shadow: 7px 5px 5px black;
   font-family: 'special elite'; }
   .section h2 {
     font-size: 26px; }
+
+.skillsOuterWrapper {
+  background-color: white;
+  -webkit-box-shadow: 7px 5px 5px black;
+          box-shadow: 7px 5px 5px black; }
+
+.skillsWrapper {
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  padding: 2%;
+  font-family: 'special elite'; }
+
+.skillsDevelopment {
+  width: 30%;
+  display: inline-block;
+  float: left; }
+  .skillsDevelopment h1 {
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black; }
+  .skillsDevelopment p {
+    text-align: center; }
+
+.skillsWorkflow {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin-left: 5%; }
+  .skillsWorkflow h1 {
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black; }
+  .skillsWorkflow p {
+    text-align: center; }
+
+.skillsOther {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  margin-left: 5%; }
+  .skillsOther h1 {
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 2px 2px 2px black; }
+  .skillsOther p {
+    text-align: center; }
 
 .blogSection {
   margin-top: 45%;

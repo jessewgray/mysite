@@ -9,7 +9,7 @@ get_header();  ?>
 <div class="mainBlurb">
       <p>Jesse W Gray</p>
       <p>Front-End Web Developer</p>
-      <p>Toronto, ON</p>
+      <p>Toronto, Canada</p>
     </div> <!-- mainBlurb --> 
 <div class="section clearfix">
   <div class="innerWrapper" >
@@ -38,4 +38,33 @@ get_header();  ?>
     </div>
   </div> <!-- /.innerWrapper -->
 </div> <!-- /.section -->
+
+<div class="skillsOuterWrapper">
+  <div class="skillsWrapper clearfix">
+
+   <div class="skillsDevelopment">
+     <h1>Development</h1>
+      <p>HTML5</p>
+      <p>CSS3 / Sass</p>
+      <p>JavaScript / jQuery</p>
+      <p>Wordpress</p>
+      <p>Responsive Design</p>
+    </div> <!-- skillsDevelopment -->
+
+    <div class="skillsWorkflow">
+      <h1>Workflow</h1>
+      <p>Command Line</p>
+      <p>Sublime Text</p>
+      <p>Grunt</p>
+      <p>Cross Browser Testing</p>
+
+    </div> <!-- skillsWorkflow -->
+
+    <div class="skillsOther">
+     <h1>Other</h1> 
+     <p>Photoshop</p>
+     <p>Final Cut Pro</p>
+    </div> <!-- skillsOther -->
+  </div> <!-- skillsWrapper -->
+ </div> <!-- skillsOuterWrapper  -->
 <?php get_footer(); ?>
