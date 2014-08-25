@@ -39,6 +39,10 @@ get_header();  ?>
   </div> <!-- /.innerWrapper -->
 </div> <!-- /.section -->
 
+<div class="newBackground">
+
+</div> <!-- newBackground -->
+
 <div class="skillsOuterWrapper">
   <div class="skillsWrapper clearfix">
 
@@ -47,6 +51,8 @@ get_header();  ?>
       <p>HTML5</p>
       <p>CSS3 / Sass</p>
       <p>JavaScript / jQuery</p>
+      <p>APIs</p>
+      <p>Ajax</p>
       <p>Wordpress</p>
       <p>Responsive Design</p>
     </div> <!-- skillsDevelopment -->

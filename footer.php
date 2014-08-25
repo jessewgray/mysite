@@ -4,15 +4,15 @@
     <p><!-- &copy; --> jessewgray.com <?php echo date('Y'); ?></p>
 
 	<div class="socialIcons">
-		<div class="iconOne">
+		<a href="https://github.com/jessewgray"><div class="iconOne">
 
-		</div> <!-- iconOne -->
-		<div class="iconTwo">
+		</div></a> <!-- iconOne -->
+		<a href="https://www.linkedin.com/profile/view?id=31735569&trk=nav_responsive_tab_profile"><div class="iconTwo">
 
-		</div> <!-- iconTwo -->
-		<div class="iconThree">
+		</div></a> <!-- iconTwo -->
+		<a href="https://twitter.com/jessewgray"><div class="iconThree">
 
-		</div> <!-- iconThree -->
+		</div></a> <!-- iconThree -->
 
 
 	</div> <!-- socialIcons -->
