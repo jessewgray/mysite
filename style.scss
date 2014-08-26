@@ -87,7 +87,7 @@ body {
     // transform: scale(1.05,1.05);
     background-color: lightgrey;
     color: white;
-    transition: 1s;
+    transition: .5s;
   }
 }
 
@@ -118,7 +118,7 @@ body {
     // transform: scale(1.05,1.05);
     background-color: lightgrey;
     color: white;
-    transition: 1s;
+    transition: .5s;
   }
 
 }
@@ -138,7 +138,7 @@ body {
 }
 
 .newBackground {
-  background-image: url(i/jesseSteves2.jpg);
+  background-image: url(i/jesseBackground3.jpg);
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -282,7 +282,7 @@ body {
     background-color: lightgrey;
     color: white;
     text-shadow: 2px 1px 1px black;
-    transition: 1s;
+    transition: .5s;
 
   }
   }
@@ -398,26 +398,60 @@ body {
 .portfolio {
   width: 30%;
   float: left;
-  // border: 1px solid red; 
-  margin-right: 3%;
-  background-color: lightgrey;
-  padding: 2%;
-  box-shadow: 6px 5px 5px black;
-  text-align: center;
-  border: 2px solid grey;
+  img {
+    box-shadow: 5px 5px 5px black; 
+   }
+  &:hover {
+    // background-color: lightgrey;
+    // box-shadow: 6px 5px 5px black;
+    border-top: 2px solid lightgrey;
+    // border-bottom: 1px solid lightgrey;
+    transition: .5s;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
   h2 a {
     text-decoration: none;
     color: black;
+    padding: 2%;
     &:hover {
     // transform: scale(1.05,1.05);
     // text-decoration: underline;
     // background-color: black;
     color: white;
+    background-color: lightgrey;
     text-shadow: 2px 2px 2px black;
-    transition: .8s;
+    transition: .5s;
   }
   }
 
+}
+
+.portfolio:nth-child(3n+1) {
+  margin-right: 3%;
+  padding: 1%;
+  // border-right: 1px solid lightgrey;
+}
+
+.portfolio:nth-child(3n+2) {
+  // border-right: 1px solid lightgrey;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding: 1%;
+ 
+  
+
+  // padding-left: 3%;
+}
+
+.portfolio:nth-child(3n) {
+  margin-left: 3%;
+  padding: 1%;
+  // border-left: 1px solid lightgrey;
 }
 
 // .portfolioDisplay {
@@ -442,6 +476,11 @@ body {
 //   opacity: 1;
 // }
 
+.portfolioDisplayCover p {
+  display: none;
+  // background-color: lightgrey;
+  padding: 1%;
+}
 
 .footer {
   margin-left: 5%;

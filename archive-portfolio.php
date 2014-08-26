@@ -12,7 +12,7 @@
         
        
         <div class="portfolioDisplay clearfix">
-          <div class="portfolioDisplayCover">
+          <div class="portfolioDisplayCover clearfix">
 
 
   

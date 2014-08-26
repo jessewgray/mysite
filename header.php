@@ -56,25 +56,21 @@ wp_head();
 <script>
 
 $(document).ready(function(){
-  // $('.dropDownLI').mouseenter(function(){
-  //   $('.dropDown ul').slideDown();
-  // });
-
-  // $('dropDownLi').mouseout(function(){
-  //   $('.dropDown ul').slideUp();
-  // });
-
-// $('.dropDownLI').hover(function(){
-//     $('.dropDown ul').slideDown()
-// }, function(){
-//     $('.dropDown ul').slideUp()
-// });
+ 
 
 $('.menuWrapper').hover(function(){
     $('.dropDown ul').slideDown("slow")
 }, function(){
     $('.dropDown ul').slideUp()
 });
+
+
+$('.portfolio').hover(function(){
+    $('.portfolioDisplayCover p').slideDown("slow")
+}, function(){
+    $('.portfolioDisplayCover p').slideUp()
+});
+
 
 });
 
