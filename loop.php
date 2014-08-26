@@ -1,7 +1,7 @@
 <?php /* If there are no posts to display, such as an empty archive page */ ?>
 
 <?php if ( ! have_posts() ) : ?>
-
+	<div class="blogText">
 	<article id="post-0" class="post error404 not-found">
 		<h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
 		<section class="entry-content">
@@ -9,13 +9,13 @@
 			<?php get_search_form(); ?>
 		</section><!-- .entry-content -->
 	</article><!-- #post-0 -->
-
+	</div>
 <?php endif; // end if there are no posts ?>
 
 <?php /* if there are posts, Start the Loop. */ ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
-
+		<div class="blogText">
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
@@ -29,9 +29,9 @@
 			</footer>
 				
 		</article><!-- #post-## -->
-
+		</div>
 		<?php comments_template( '', true ); ?>
-
+		
 
 <?php endwhile; // End the loop. Whew. ?>
 

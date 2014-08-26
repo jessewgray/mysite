@@ -1,7 +1,9 @@
 <?php get_header(); ?>
+
 <div class="section">
   <div class="innerWrapper">
     <div class="left">
+    <div class="blogSingleStyle">
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -18,7 +20,7 @@
 
 
           <div class="entry-utility">
-            <?php twentyten_posted_in(); ?>
+            <!-- <?php twentyten_posted_in(); ?> -->
             <?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
           </div><!-- .entry-utility -->
         </div><!-- #post-## -->
@@ -28,12 +30,14 @@
           <div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'twentyten' ) . '</span>' ); ?></div>
         </div><!-- #nav-below -->
 
-        <?php comments_template( '', true ); ?>
+        <!-- <?php comments_template( '', true ); ?> -->
 
       <?php endwhile; // end of the loop. ?>
 
     </div>
-    <?php get_sidebar(); ?>
+    <!-- <?php get_sidebar(); ?> -->
+    </div> <!-- blogSingleStyle -->
   </div> <!-- /.innerWrapper -->
 </div> <!-- /.section -->
+
 <?php get_footer(); ?>

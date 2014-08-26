@@ -52,26 +52,4 @@ wp_head();
   </div> <!-- /.innerWrapper -->
 </div><!--/.header-->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>
-
-$(document).ready(function(){
- 
-
-$('.menuWrapper').hover(function(){
-    $('.dropDown ul').slideDown("slow")
-}, function(){
-    $('.dropDown ul').slideUp()
-});
-
-
-$('.portfolio').hover(function(){
-    $('.portfolioDisplayCover p').slideDown("slow")
-}, function(){
-    $('.portfolioDisplayCover p').slideUp()
-});
-
-
-});
-
-</script>
+  

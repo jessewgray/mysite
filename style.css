@@ -347,7 +347,7 @@ body {
   letter-spacing: .18em;
   -webkit-box-shadow: 6px 5px 5px black;
           box-shadow: 6px 5px 5px black;
-  text-shadow: 2px 2px 2px black; }
+  text-shadow: 1px 1px 1px black; }
   .dropDownLI a:hover {
     background-color: lightgrey;
     color: white;
@@ -381,7 +381,7 @@ body {
             transition: .5s; }
 
 .section {
-  margin-top: 25%;
+  margin-top: 28%;
   width: 100%;
   /*border: black solid 1px;*/
   padding: 2%;
@@ -419,7 +419,7 @@ body {
   .skillsDevelopment h1 {
     text-align: center;
     font-size: 22px;
-    text-shadow: 2px 2px 2px black; }
+    text-shadow: 1px 1px 1px black; }
   .skillsDevelopment p {
     text-align: center; }
 
@@ -431,7 +431,7 @@ body {
   .skillsWorkflow h1 {
     text-align: center;
     font-size: 22px;
-    text-shadow: 2px 2px 2px black; }
+    text-shadow: 1px 1px 1px black; }
   .skillsWorkflow p {
     text-align: center; }
 
@@ -443,12 +443,12 @@ body {
   .skillsOther h1 {
     text-align: center;
     font-size: 22px;
-    text-shadow: 2px 2px 2px black; }
+    text-shadow: 1px 1px 1px black; }
   .skillsOther p {
     text-align: center; }
 
 .blogSection {
-  margin-top: 45%;
+  margin-top: 48%;
   width: 100%;
   /*border: black solid 1px;*/
   padding: 2%;
@@ -460,7 +460,7 @@ body {
     font-size: 26px; }
 
 .portfolioSection {
-  margin-top: 45%;
+  margin-top: 48%;
   width: 100%;
   /*border: black solid 1px;*/
   padding: 2%;
@@ -472,7 +472,7 @@ body {
     font-size: 26px; }
 
 .contactSection {
-  margin-top: 45%;
+  margin-top: 48%;
   width: 100%;
   /*border: black solid 1px;*/
   padding: 2%;
@@ -488,7 +488,7 @@ body {
   margin-right: 5%;
   width: 90%; }
   .contactWrapper h2 {
-    text-shadow: 2px 2px 2px black; }
+    text-shadow: 1px 1px 1px black; }
 
 .contactText {
   font-size: 18px;
@@ -500,7 +500,7 @@ body {
       padding: 1%;
       background-color: lightgrey;
       color: white;
-      text-shadow: 2px 1px 1px black;
+      text-shadow: 1px 1px 1px black;
       -webkit-transition: .5s;
               transition: .5s; }
 
@@ -518,7 +518,7 @@ body {
   margin-left: 5%;
   width: 90%; }
   .about h2 {
-    text-shadow: 2px 2px 2px black; }
+    text-shadow: 1px 1px 1px black; }
 
 .aboutHead {
   width: 35%;
@@ -539,18 +539,49 @@ body {
 .blogWrapper {
   margin-left: 5%;
   margin-right: 5%;
-  width: 90%; }
+  width: 90%;
+  line-height: 1.3em; }
   .blogWrapper h2 {
     font-size: 22px; }
-    .blogWrapper h2 p {
-      font-size: 18px; }
 
 .titleBlog h2 {
   font-size: 26px;
-  text-shadow: 2px 2px 2px black; }
+  text-shadow: 1px 1px 1px black; }
 
-.blogText p {
-  font-size: 18px; }
+.blogText {
+  width: 47.5%;
+  float: left;
+  border: 2px solid lightgrey;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+  border-radius: 5px;
+  padding: 1%; }
+  .blogText p {
+    font-size: 18px; }
+  .blogText h2 {
+    text-align: center; }
+  .blogText h2 a {
+    text-align: center;
+    text-decoration: none;
+    color: black; }
+    .blogText h2 a:hover {
+      color: white;
+      text-shadow: 1px 1px 1px black;
+      background-color: lightgrey;
+      padding: 2%;
+      -webkit-transition: .5s;
+              transition: .5s; }
+
+.blogText:nth-child(2n-1) {
+  margin-right: 5%; }
+
+.blogSingleStyle {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5em; }
+  .blogSingleStyle h1 {
+    text-align: center; }
 
 .portfolioArchiveWrapper {
   margin-left: 5%;
@@ -559,21 +590,22 @@ body {
 
 .portfolioArchiveTitle h2 {
   font-size: 26px;
-  text-shadow: 2px 2px 2px black; }
+  text-shadow: 1px 1px 1px black; }
 
 .portfolioSingleWrapper {
   margin-left: 5%;
   margin-right: 5%;
   width: 90%; }
   .portfolioSingleWrapper h2 {
-    text-shadow: 2px 2px 2px black; }
+    text-shadow: 1px 1px 1px black; }
 
 .portfolioSingleTitle h2 {
   font-size: 26px; }
 
 .portfolio {
   width: 30%;
-  float: left; }
+  float: left;
+  line-height: 1.2em; }
   .portfolio img {
     -webkit-box-shadow: 5px 5px 5px black;
             box-shadow: 5px 5px 5px black; }
@@ -583,8 +615,6 @@ body {
             transition: .5s; }
   .portfolio h2 {
     text-align: center; }
-  .portfolio p {
-    text-align: center; }
   .portfolio h2 a {
     text-decoration: none;
     color: black;
@@ -592,7 +622,7 @@ body {
     .portfolio h2 a:hover {
       color: white;
       background-color: lightgrey;
-      text-shadow: 2px 2px 2px black;
+      text-shadow: 1px 1px 1px black;
       -webkit-transition: .5s;
               transition: .5s; }
 

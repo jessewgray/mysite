@@ -29,5 +29,34 @@
  s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+ 
+
+$('.menuWrapper').hover(function(){
+    $('.dropDown ul').slideDown("slow")
+}, function(){
+    $('.dropDown ul').slideUp()
+});
+
+
+$('article.portfolio').hover(function(){
+    $(this).find('.entry-content p').slideDown('slow');
+    $(this).find('.image p').slideDown('slow');
+}, function(){
+    $(this).find('.entry-content p').slideUp('slow');
+    $(this).find('.image p').slideUp('slow');
+
+});
+
+
+
+});
+
+</script>
+
+
 </body>
 </html>

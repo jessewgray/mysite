@@ -24,6 +24,7 @@ function theme_setup() {
 		'primary' => __( 'Primary Navigation', 'wesbos' ),
 	) );
 
+	
 }
 endif;
 
@@ -347,3 +348,4 @@ function get_post_thumbnail_url($size = 'thumbnail', $image_id = NULL ) {
 	$image_url = $image_url[0];
 	return $image_url;
 } 
+
