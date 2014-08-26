@@ -320,7 +320,7 @@ img.alignright {
 body {
   background-image: url("i/sitebgBW.jpg");
   background-attachment: fixed;
-  background-attachment: center;
+  background-position: center;
   background-size: cover; }
 
 .menuWrapper {

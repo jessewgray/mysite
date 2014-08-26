@@ -41,7 +41,7 @@ img.alignright    { padding-left: 5px; }
 body {
   background-image: url('i/sitebgBW.jpg');
   background-attachment: fixed;
-  background-attachment: center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -646,6 +646,8 @@ body {
   /*float: left;*/
 }
 
+
+// @media (max-width: )
 
 
 
