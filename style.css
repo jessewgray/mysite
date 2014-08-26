@@ -422,6 +422,9 @@ body {
     text-shadow: 1px 1px 1px black; }
   .skillsDevelopment p {
     text-align: center; }
+  .skillsDevelopment h4 {
+    text-align: center;
+    text-shadow: 1px 1px 1px black; }
 
 .skillsWorkflow {
   width: 30%;
@@ -446,6 +449,9 @@ body {
     text-shadow: 1px 1px 1px black; }
   .skillsOther p {
     text-align: center; }
+  .skillsOther h4 {
+    text-align: center;
+    text-shadow: 1px 1px 1px; }
 
 .blogSection {
   margin-top: 48%;

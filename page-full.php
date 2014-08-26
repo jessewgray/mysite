@@ -50,11 +50,13 @@ get_header();  ?>
      <h1>Development</h1>
       <p>HTML5</p>
       <p>CSS3 / Sass</p>
+      <p>Wordpress</p>
+      <p>Responsive Design</p>
+      <h4>Familiar with:</h4>
       <p>JavaScript / jQuery</p>
       <p>APIs</p>
       <p>Ajax</p>
-      <p>Wordpress</p>
-      <p>Responsive Design</p>
+      
     </div> <!-- skillsDevelopment -->
 
     <div class="skillsWorkflow">
@@ -68,8 +70,9 @@ get_header();  ?>
 
     <div class="skillsOther">
      <h1>Other</h1> 
-     <p>Photoshop</p>
      <p>Final Cut Pro</p>
+     <h4>Familiar with:</h4>
+     <p>Photoshop</p>
     </div> <!-- skillsOther -->
   </div> <!-- skillsWrapper -->
  </div> <!-- skillsOuterWrapper  -->

@@ -37,6 +37,7 @@ img.alignright    { padding-left: 5px; }
 /* =============================================================================
                    Default Styling 
    ========================================================================== */
+// photo by Dan Shoesmith
 body {
   background-image: url('i/sitebgBW.jpg');
   background-attachment: fixed;
@@ -137,8 +138,9 @@ body {
 
 }
 
+// photo by Dan Shoesmith
 .newBackground {
-  background-image: url(i/jesseBackground3.jpg);
+  background-image: url(i/jesseBackground3.jpg);  
   background-attachment: fixed;
   background-size: cover;
   width: 100%;
@@ -177,6 +179,10 @@ body {
     text-align: center;
     
   }
+  h4 {
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+  }
 
 }
 
@@ -211,6 +217,10 @@ body {
   }
   p {
     text-align: center;
+  }
+  h4 {
+    text-align: center;
+    text-shadow: 1px 1px 1px;
   }
 }
 
@@ -313,6 +323,7 @@ body {
   
   }
 
+// photo by Dan Shoesmith
 .aboutHead {
   width: 35%;
   margin-right: 2%;
@@ -332,7 +343,6 @@ body {
       line-height: 1.5em;
 
     }
-
 }
 
 
