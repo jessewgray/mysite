@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Jesse's Theme
 Theme URI: http://hackeryou.com;
@@ -746,6 +747,7 @@ body {
   border: yellow solid;
 }
 */
+  
 .full img {
   -webkit-box-shadow: 5px 5px 5px black;
           box-shadow: 5px 5px 5px black;
@@ -753,6 +755,30 @@ body {
 
 .full p {
   /*float: left;*/ }
+
+.entry-content a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px; }
+  .entry-content a:hover {
+    background-color: lightgrey;
+    color: white;
+    padding: 1%;
+    text-shadow: 1px 1px 1px black;
+    -webkit-transition: .5s;
+            transition: .5s; }
+
+.portfolioSingleWrapper > p a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px; }
+  .portfolioSingleWrapper > p a:hover {
+    background-color: lightgrey;
+    color: white;
+    padding: .5%;
+    text-shadow: 1px 1px 1px black;
+    -webkit-transition: .5s;
+            transition: .5s; }
 
 @media (max-width: 1205px) {
   .iconOne {
