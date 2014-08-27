@@ -366,6 +366,7 @@ body {
 
 .dropDown ul a {
   text-decoration: none;
+  font-size: 18px;
   color: black;
   background-color: white;
   padding: 3%;
@@ -528,7 +529,7 @@ body {
 
 .aboutHead {
   width: 35%;
-  margin-right: 2%;
+  margin-right: 5%;
   float: left; }
   .aboutHead img {
     position: center; }
@@ -753,6 +754,210 @@ body {
 .full p {
   /*float: left;*/ }
 
+@media (max-width: 1205px) {
+  .iconOne {
+    margin-left: 45%; } }
+@media (max-width: 958px) {
+  .iconOne {
+    margin-left: 35%; } }
+@media (max-width: 800px) {
+  .aboutText {
+    margin-top: 0%;
+    padding-left: 5%; }
+
+  .iconOne {
+    margin-left: 25%; }
+
+  .dropDown > li > a {
+    font-size: 22px; }
+
+  .menu li a {
+    margin-left: -15%; }
+
+  .mainBlurb p {
+    font-size: 22px; }
+
+  .dropDown a {
+    font-size: 18px; }
+
+  .section {
+    margin-top: 55%; }
+
+  .portfolioSection {
+    margin-top: 77%; }
+
+  .contactSection {
+    margin-top: 77%; }
+
+  .blogSection {
+    margin-top: 77%; } }
+@media (max-width: 690px) {
+  .iconOne {
+    margin-left: 15%; } }
+@media (max-width: 650px) {
+  body {
+    background-image: url("i/sitebgBW.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover; }
+
+  .newBackground {
+    background-image: url(i/jesseBackground3.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    color: white; }
+
+  .mainBlurb {
+    font-size: 16px;
+    margin-left: 50%;
+    margin-top: 15%; }
+
+  .aboutHead {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    clear: both; }
+    .aboutHead img {
+      clear: both;
+      display: inline-block; }
+
+  .aboutText {
+    clear: both;
+    display: inline-block;
+    width: 90%; }
+
+  .section {
+    margin-top: 63%; }
+
+  .portfolioSection {
+    margin-top: 97%; }
+
+  .portfolio {
+    width: 90%;
+    display: inline; }
+
+  .blogSection {
+    margin-top: 97%; }
+
+  .blogText {
+    width: 100%;
+    display: inline;
+    margin-bottom: 5%; }
+
+  .contactSection {
+    margin-top: 97%; }
+
+  .iconOne {
+    margin-left: 10%;
+    height: 60px;
+    width: 60px; }
+
+  .iconTwo {
+    height: 60px;
+    width: 60px; }
+
+  .iconThree {
+    height: 60px;
+    width: 60px; }
+
+  .menuWrapper {
+    width: 30%;
+    height: 40%;
+    position: fixed;
+    top: 10%;
+    z-index: 99;
+    /*border: red solid;*/ }
+
+  .dropDownLI a {
+    font-size: 22px;
+    padding: 5%; }
+
+  ul.dropDown {
+    padding: 5%; }
+
+  .dropDown ul {
+    display: block !important; }
+
+  .portfolioDisplayCover p {
+    display: block !important; } }
+@media (max-width: 525px) {
+  .skillsDevelopment h1 {
+    font-size: 18px; }
+
+  .skillsWorkflow h1 {
+    font-size: 18px; }
+
+  .skillsOther h1 {
+    font-size: 18px; }
+
+  .aboutHead {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+
+  .mainBlurb {
+    margin-top: 20%; }
+
+  .section {
+    margin-top: 73%; }
+
+  .portfolioSection {
+    margin-top: 123%; }
+
+  .contactSection {
+    margin-top: 123%; }
+
+  .blogSection {
+    margin-top: 123%; }
+
+  .footer p {
+    display: none; }
+
+  .iconOne {
+    margin-left: 5%; } }
+@media (max-width: 525px) and (max-width: 400px) {
+  .mainBlurb {
+    margin-top: 25%; }
+
+  .section {
+    margin-top: 96%; }
+
+  .skillsDevelopment p {
+    font-size: 12px; }
+  .skillsDevelopment h1 {
+    font-size: 14px; }
+
+  .skillsWorkflow p {
+    font-size: 12px; }
+  .skillsWorkflow h1 {
+    font-size: 14px; }
+
+  .skillsOther h1 {
+    font-size: 14px; }
+  .skillsOther p {
+    font-size: 12px; }
+
+  .aboutText {
+    font-size: 14px; }
+
+  .portfolioSection {
+    margin-top: 160%; }
+
+  .blogSection {
+    margin-top: 160%; }
+
+  .contactSection {
+    margin-top: 160%; }
+
+  .aboutHead img {
+    padding: 0;
+    margin: 0; }
+
+  .aboutText {
+    width: 100%; } }
 /* =============================================================================
                    Comment Styling 
    ========================================================================== */
