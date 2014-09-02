@@ -52,7 +52,6 @@ get_header();  ?>
       <p>CSS3 / Sass</p>
       <p>Wordpress</p>
       <p>Responsive Design</p>
-      <h4>Familiar with:</h4>
       <p>JavaScript / jQuery</p>
       <p>APIs</p>
       <p>Ajax</p>
@@ -64,6 +63,7 @@ get_header();  ?>
       <p>Command Line</p>
       <p>Sublime Text</p>
       <p>Grunt</p>
+      <p>Github</p>
       <p>Cross Browser Testing</p>
 
     </div> <!-- skillsWorkflow -->
@@ -71,7 +71,6 @@ get_header();  ?>
     <div class="skillsOther">
      <h1>Other</h1> 
      <p>Final Cut Pro</p>
-     <h4>Familiar with:</h4>
      <p>Photoshop</p>
     </div> <!-- skillsOther -->
   </div> <!-- skillsWrapper -->

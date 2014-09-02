@@ -320,8 +320,10 @@ img.alignright {
    ========================================================================== */
 body {
   background-image: url("i/sitebgBW.jpg");
-  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   background-size: cover; }
 
 .menuWrapper {
@@ -787,6 +789,14 @@ body {
   .iconOne {
     margin-left: 35%; } }
 @media (max-width: 800px) {
+  body {
+    background-image: url("i/sitebgBW.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover; }
+
   .aboutText {
     margin-top: 0%;
     padding-left: 5%; }
@@ -823,8 +833,10 @@ body {
 @media (max-width: 650px) {
   body {
     background-image: url("i/sitebgBW.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
-    background-position: right;
+    background-size: cover;
     background-size: cover; }
 
   .newBackground {
@@ -910,6 +922,14 @@ body {
   .portfolioDisplayCover p {
     display: block !important; } }
 @media (max-width: 525px) {
+  body {
+    background-image: url("i/sitebgBW.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover; }
+
   .skillsDevelopment h1 {
     font-size: 18px; }
 
@@ -944,7 +964,15 @@ body {
 
   .iconOne {
     margin-left: 5%; } }
-@media (max-width: 525px) and (max-width: 400px) {
+@media only screen and (max-width: 525px) and (max-width: 400px) {
+  body {
+    background-image: url("i/sitebgBW.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover; }
+
   .mainBlurb {
     margin-top: 25%; }
 

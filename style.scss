@@ -40,11 +40,15 @@ img.alignright    { padding-left: 5px; }
 // photo by Dan Shoesmith
 body {
   background-image: url('i/sitebgBW.jpg');
-  background-attachment: fixed;
+  background-repeat: no-repeat; 
   background-position: center;
+  background-attachment: fixed;       
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
-
+    
 .menuWrapper {
   width: 20%;
   height: 30%;
@@ -689,6 +693,17 @@ body {
 }
 
 @media (max-width: 800px) {
+  body {
+  background-image: url('i/sitebgBW.jpg');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
   .aboutText {
     margin-top: 0%;
     padding-left: 5%;
@@ -737,6 +752,7 @@ body {
 }
 
 
+
   @media (max-width: 690px) {
     .iconOne {
       margin-left: 15%;
@@ -745,10 +761,14 @@ body {
 
 
   @media (max-width: 650px) {
-    body {
+  body {
   background-image: url('i/sitebgBW.jpg');
-  background-attachment: fixed;
-  background-position: right;
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -861,12 +881,19 @@ ul.dropDown {
   display: block !important;
 }
 
-
-
-
 }
 
 @media (max-width: 525px) {
+  body {
+  background-image: url('i/sitebgBW.jpg');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
   .skillsDevelopment h1 {
     font-size: 18px;
@@ -924,8 +951,20 @@ ul.dropDown {
   // .dropDownLI a {
   //   font-size: 22px;
   // }
+  
 
-  @media (max-width: 400px) {
+  @media only screen and (max-width: 400px) {
+  body {
+  background-image: url('i/sitebgBW.jpg');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
     .mainBlurb {
       margin-top: 25%;  
   } 
